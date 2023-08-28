@@ -1,12 +1,12 @@
 import './App.css';
 import HomePage from './component/pages/HomePage';
-import Product from './component/pages/Product';
+import ProductPage from './component/pages/ProductPage';
 
 
 function App() {
   return (
   //  <HomePage/>
-   <Product/>
+   <ProductPage/>
   );
 }
 

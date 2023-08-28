@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         ShopWave
@@ -81,12 +81,13 @@ const Navbar = () => {
                         </ul>
                         <form className="d-flex" role="search">
                             <input
-                                className="form-control me-2"
+                                className="form-control me-2 bg-light text-primary"
                                 type="search"
                                 placeholder="Search"
                                 aria-label="Search"
+                                style = {{color : "black"}}
                             />
-                            <button className="btn btn-outline-success" type="submit">
+                            <button className="btn btn-outline-light" type="submit">
                                 Search
         </button>
                         </form>
