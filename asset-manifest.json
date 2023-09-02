@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ShopWave/static/css/main.aaf3985c.css",
+    "main.js": "/ShopWave/static/js/main.852d78a5.js",
+    "static/js/787.dcc73137.chunk.js": "/ShopWave/static/js/787.dcc73137.chunk.js",
+    "index.html": "/ShopWave/index.html",
+    "main.aaf3985c.css.map": "/ShopWave/static/css/main.aaf3985c.css.map",
+    "main.852d78a5.js.map": "/ShopWave/static/js/main.852d78a5.js.map",
+    "787.dcc73137.chunk.js.map": "/ShopWave/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf3985c.css",
+    "static/js/main.852d78a5.js"
+  ]
+}
