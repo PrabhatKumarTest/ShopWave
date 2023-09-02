@@ -46,7 +46,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6" >Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= {"/product"} className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -276,7 +276,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -322,7 +322,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -368,7 +368,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -414,7 +414,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -460,7 +460,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -506,7 +506,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -552,7 +552,7 @@ const Items = () => {
                             </p>
                         </div>
                         <div className=" bg-white d-grid mx-auto p-3">
-                                <button className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
+                            <button href= "/product" className="btn btn-outline-danger btn-sm mx-auto fs-6">Add to cart</button>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,3 @@
-
-
 const Carousel = () => {
 
     return (
