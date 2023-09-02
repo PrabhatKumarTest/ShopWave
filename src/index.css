@@ -20,6 +20,11 @@
     margin : 0.5rem
 }
 
+.card:hover {
+    transform: scale(1.05);
+    transition: transform ease-in 0.2s;
+}
+
 @media (max-width : 770px){
     .product img{
         max-height : 10rem;
@@ -31,3 +36,4 @@
         justify-content: center;
     }
 }
+

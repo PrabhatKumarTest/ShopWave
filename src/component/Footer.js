@@ -117,9 +117,9 @@ const Footer = () => {
                             </form>
                         </div>
                     </div>
-                    <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                        <p>© 2022 Company, Inc. All rights reserved.</p>
-                        <ul className="list-unstyled d-flex">
+                    <div className="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top">
+                        <p className = "m-0 p-0">© 2022 Company, Inc. All rights reserved.</p>
+                        <ul className="list-unstyled d-flex m-0 p-0">
                             <li className="ms-3">
                                 <a className="link-dark" href="/">
                                     <svg className="bi" width={24} height={24}>
