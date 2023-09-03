@@ -1,21 +1,30 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { ADD_TO_CART } from './ReduxStore/actions/Action';
 
 const Items = () => {
     const Database = useSelector(state => state.product)
+    const dispatch = useDispatch();
+
+    const addToCart = (elem) => {
+        dispatch({type:ADD_TO_CART, payload : elem})
+    }
+
+    
     return (
         <>
             <div className="row mx-auto row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
-                {Database.product.map((product) => {
-                    return <div key={product.id} className="col">
+                {Database.product.map((e) => {
+                    return <div key={e.id} className="col">
+                        {console.log(e)}
                         <div className="card h-100">
-                            <img src={product.image} className="card-img-top" alt="..." />
+                            <img src={e.image} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h6 className="card-subtitle mb-2 text-body-secondary">{product.category}</h6>
-                                <h5 className="card-title">{product.name}</h5>
+                                <h6 className="card-subtitle mb-2 text-body-secondary">{e.category}</h6>
+                                <h5 className="card-title">{e.name}</h5>
                                 <p className="card-text d-flex justify-content-between">
-                                    {product.price} <span className="ratings text-end">
+                                    {e.price} <span className="ratings text-end">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={16}
@@ -31,7 +40,7 @@ const Items = () => {
                                 </p>
                             </div>
                             <div className=" bg-white d-grid mx-auto p-3">
-                                <button href="/product" className="btn btn-outline-danger btn-sm mx-auto fs-6" >Add to cart</button>
+                                <button onClick={() => addToCart(e)} className="btn btn-outline-danger btn-sm mx-auto fs-6" >Add to cart</button>
                             </div>
                         </div>
                     </div>
